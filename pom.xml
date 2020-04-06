@@ -22,10 +22,10 @@
     </licenses>
 
     <scm>
-        <url>scm:git:git@github.com:hroniko/Guyver.git</url>
-        <connection>scm:git:git@github.com:hroniko/Guyver.git</connection>
-        <developerConnection>scm:git:git@github.com:hroniko/Guyver.git</developerConnection>
-        <tag>v1.0.0</tag>
+        <connection>scm:git:https://github.com/hroniko/Guyver.git</connection>
+        <developerConnection>scm:git:https://github.com/hroniko/Guyver.git</developerConnection>
+        <url>https://github.com/hroniko/Guyver</url>
+        <tag>master</tag>
     </scm>
 
     <developers>
