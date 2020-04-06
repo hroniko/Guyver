@@ -7,6 +7,24 @@
     <groupId>com.hroniko</groupId>
     <artifactId>guyver</artifactId>
     <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>Guyver Object Modifier</name>
+    <description>The Guyver project for light-way for object modify</description>
+    <url>https://github.com/hroniko/Guyver</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/hroniko/Guyver</url>
+    </scm>
+
     <build>
         <plugins>
             <plugin>

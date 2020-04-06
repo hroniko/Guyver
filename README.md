@@ -1,5 +1,5 @@
 # Guyver
-Guyver Class-Modifier
+Guyver Object Modifier
 
 How to use:
 
