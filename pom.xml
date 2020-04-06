@@ -22,7 +22,7 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/hroniko/Guyver</url>
+        <url>https://github.com/hroniko/Guyver.git</url>
     </scm>
 
     <build>
