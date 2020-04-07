@@ -1,0 +1,27 @@
+<settings xmlns="http://maven.apache.org/settings/1.0.0">
+    <servers>
+        <server>
+            <id>ossrh</id>
+            <username>Hroniko</username>
+            <password>**********7&amp;</password>
+        </server>
+    </servers>
+    <profiles>
+        <profile>
+            <id>ossrh</id>
+            <properties>
+                <gpg.executable>gpg</gpg.executable>
+                <!-- Your Key Password -->
+                <gpg.passphrase>***********************0A</gpg.passphrase>
+
+                <!-- If not using the default key do the following -->
+                <gpg.keyname> Anatolii Hroniko</gpg.keyname>
+                <gpg.passphraseServerId>${gpg.keyname}</gpg.passphraseServerId>
+                <gpg.defaultKeyring>false</gpg.defaultKeyring>
+            </properties>
+        </profile>
+    </profiles>
+    <activeProfiles>
+        <activeProfile>ossrh</activeProfile>
+    </activeProfiles>
+</settings>

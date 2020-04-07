@@ -1,0 +1,18 @@
+1. Fix settings.xml
+
+2. clean
+"C:\Program Files (x86)\Java\jdk1.8.0_192\bin\java.exe" -Dmaven.multiModuleProjectDirectory=D:\WORK3\ZZZ\Guyver "-Dmaven.home=C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3" "-Dclassworlds.conf=C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3\bin\m2.conf" "-Dmaven.ext.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven-event-listener.jar" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\lib\idea_rt.jar=4490:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar" org.codehaus.classworlds.Launcher -Didea.version2019.3.3 -s D:\WORK3\ZZZ\settings.xml -Dmaven.repo.local=C:\m2\repository clean
+
+3. install
+"C:\Program Files (x86)\Java\jdk1.8.0_192\bin\java.exe" -Dmaven.multiModuleProjectDirectory=D:\WORK3\ZZZ\Guyver "-Dmaven.home=C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3" "-Dclassworlds.conf=C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3\bin\m2.conf" "-Dmaven.ext.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven-event-listener.jar" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\lib\idea_rt.jar=4490:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar" org.codehaus.classworlds.Launcher -Didea.version2019.3.3 -s D:\WORK3\ZZZ\settings.xml -Dmaven.repo.local=C:\m2\repository clean install -Prelease
+
+4. deploy
+"C:\Program Files (x86)\Java\jdk1.8.0_192\bin\java.exe" -Dmaven.multiModuleProjectDirectory=D:\WORK3\ZZZ\Guyver "-Dmaven.home=C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3" "-Dclassworlds.conf=C:\Program Files\JetBra
+ins\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3\bin\m2.conf" "-Dmaven.ext.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven-event-listener.jar" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\lib\idea_rt.jar=4490
+:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar" org.codehaus.classworlds.Launcher -Didea.version2019.3.3 -s D:\WO
+RK3\ZZZ\settings.xml -Dmaven.repo.local=C:\m2\repository clean deploy -Prelease
+
+
+please use this manual
+https://itnext.io/publishing-artifact-to-maven-central-b160634e5268
+Publishing Artifact to Maven Central Manual.html
