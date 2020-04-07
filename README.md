@@ -1,6 +1,6 @@
 # Guyver Object Modifier
 --------------
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.chapeco.api.testrail/testrail-api-java-client.svg?label=Maven%20Central)](https://search.maven.org/artifact/com.github.hroniko/guyver-object-modifier/1.0.0/jar)
+[![Maven Central](https://img.shields.io/maven-central/v/com.github.hroniko/guyver-object-modifier.svg?label=Maven%20Central)](https://search.maven.org/artifact/com.github.hroniko/guyver-object-modifier/1.0.0/jar)
 ### How to use:
 --------------
 * add dependency to pom
